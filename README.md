@@ -9,5 +9,3 @@ Portfolio personal estático creado con HTML, CSS y JavaScript.
 - `script.js`: menú para móvil.
 - `assets/curriculum-jose-penarrieta.pdf`: currículum descargable.
 
-GitHub Pages publica el sitio al actualizar la rama `main`.
-
