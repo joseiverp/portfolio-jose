@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio de José Iver Peñarrieta Villcasana, estudiante de Desarrollo de Aplicaciones Web."
+    />
+    <meta name="theme-color" content="#090b0e" />
+    <title>José Iver Peñarrieta Villcasana | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">JP<span>.</span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Abrir menú</span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link active" href="#inicio">Inicio</a>
+          <a class="nav-link" href="#habilidades">Habilidades</a>
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+          <a class="nav-link" href="#experiencia">Experiencia</a>
+          <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section container" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Portfolio personal</p>
+          <h1>José Iver<br /><span>Peñarrieta Villcasana</span></h1>
+          <p class="hero-role">Estudiante de Desarrollo de Aplicaciones Web</p>
+          <p class="hero-description">
+            Estoy aprendiendo a crear aplicaciones web y convirtiendo mis ideas en proyectos.
+            Me gusta resolver problemas, probar tecnologías y seguir mejorando con cada reto.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="assets/curriculum-jose-penarrieta.pdf" download>
+              Descargar CV <span class="button-icon" aria-hidden="true">↓</span>
+            </a>
+            <a class="button button-outline" href="#contacto">
+              Contactar <span class="button-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Presentación de mi perfil tecnológico">
+          <div class="hero-glow"></div>
+          <div class="profile-card">
+            <div class="profile-card-top">
+              <span class="window-dots"><i></i><i></i><i></i></span>
+              <span>perfil.dev</span>
+              <span class="card-menu">•••</span>
+            </div>
+            <div class="profile-content">
+              <div class="avatar-mark">JP</div>
+              <p class="profile-kicker">EN FORMACIÓN</p>
+              <h2>Desarrollador<br />web junior</h2>
+              <p class="profile-location"><span aria-hidden="true">⌖</span> Lorca, Murcia</p>
+              <div class="profile-code"><span>const</span> objetivo = <b>"seguir aprendiendo"</b>;</div>
+            </div>
+          </div>
+          <div class="floating-tag tag-html"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="" /> HTML</div>
+          <div class="floating-tag tag-js"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" /> JavaScript</div>
+          <div class="floating-tag tag-python"><img src="https://cdn.simpleicons.org/python/3776AB" alt="" /> Python</div>
+        </div>
+
+        <div class="quick-facts" aria-label="Resumen">
+          <div class="fact"><strong>4</strong><span>Proyectos personales</span></div>
+          <div class="fact"><strong>2</strong><span>Experiencias laborales</span></div>
+          <div class="fact"><strong>DAW</strong><span>Formación actual</span></div>
+        </div>
+      </section>
+
+      <section class="section container" id="habilidades">
+        <div class="section-heading">
+          <p class="eyebrow">Lo que estoy aprendiendo</p>
+          <h2>Habilidades técnicas</h2>
+          <p>Tecnologías que utilizo en clase y en mis proyectos personales.</p>
+        </div>
+        <div class="skill-groups">
+          <article class="skill-group">
+            <h3><span class="group-icon" aria-hidden="true">&lt;/&gt;</span> Frontend</h3>
+            <div class="skill-grid">
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="" /><span>HTML</span></div>
+              <div class="skill-card">
+                <svg class="skill-icon" viewBox="0 0 128 128" aria-hidden="true">
+                  <path fill="#1572B6" d="M19.5 4h89l-8.1 91.1L63.9 124 27.5 95.1z" />
+                  <text x="64" y="94" fill="#fff" font-family="Arial, sans-serif" font-size="78" font-weight="800" text-anchor="middle">3</text>
+                </svg>
+                <span>CSS</span>
+              </div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" /><span>JavaScript</span></div>
+            </div>
+          </article>
+          <article class="skill-group">
+            <h3><span class="group-icon" aria-hidden="true">⌘</span> Backend</h3>
+            <div class="skill-grid">
+              <div class="skill-card">
+                <svg class="skill-icon java-icon" viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M25 8c-9 8 11 9 1 18M39 6c-10 9 12 11 1 22M16 14c-7 6 8 7 1 13" />
+                  <path d="M15 35h36l-4.3 11.4a9 9 0 0 1-8.4 5.9H27a9 9 0 0 1-8.4-5.8L15 35Z" />
+                  <path d="M16 57h34M23 53l-3 4m14-4-1 4m12-4 2 4" />
+                  <path d="M52 38h3a5 5 0 0 1 0 10h-6" />
+                </svg>
+                <span>Java</span>
+              </div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/python/3776AB" alt="" /><span>Python</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/php/777BB4" alt="" /><span>PHP</span></div>
+            </div>
+          </article>
+          <article class="skill-group">
+            <h3><span class="group-icon" aria-hidden="true">▤</span> Bases de datos</h3>
+            <div class="skill-grid">
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="" /><span>MySQL</span></div>
+            </div>
+          </article>
+          <article class="skill-group">
+            <h3><span class="group-icon" aria-hidden="true">⚙</span> Herramientas y otros</h3>
+            <div class="skill-grid">
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/git/F05032" alt="" /><span>Git</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/github/FFFFFF" alt="" /><span>GitHub</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="" /><span>Docker</span></div>
+              <div class="skill-card"><span class="text-logo">{ }</span><span>JSON</span></div>
+              <div class="skill-card"><span class="text-logo">&lt;/&gt;</span><span>XML</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="proyectos">
+        <div class="section-heading">
+          <p class="eyebrow">Practicando con ideas propias</p>
+          <h2>Proyectos destacados</h2>
+          <p>Pequeñas aplicaciones para aprender y resolver problemas concretos.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">01 <span>WEB</span></div>
+            <h3>Tecla</h3>
+            <p>Tienda online de tecnología con catálogo dinámico, filtros, fichas de producto y proceso de compra simulado.</p>
+            <div class="tag-list"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02 <span>APP</span></div>
+            <h3>Mi Cesta</h3>
+            <p>Aplicación para procesar tickets en PDF, validar importes y consultar estadísticas desde un panel web.</p>
+            <div class="tag-list"><span>Python</span><span>Flask</span><span>SQL</span><span>HTML</span><span>CSS</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03 <span>WEB</span></div>
+            <h3>Repe</h3>
+            <p>Web de restaurante con carta filtrable por información nutricional y solicitudes de reserva según el horario.</p>
+            <div class="tag-list"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">04 <span>INTERACTIVO</span></div>
+            <h3>Mis recuerdos</h3>
+            <p>Álbum de recuerdos musicales con tarjetas animadas, búsqueda, filtros y favoritos.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="experiencia">
+        <div class="section-heading">
+          <p class="eyebrow">Mi recorrido profesional</p>
+          <h2>Experiencia</h2>
+          <p>Antes de estudiar desarrollo web, trabajé en el sector de la electromecánica.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2021 — 2025</div>
+            <div class="timeline-mark"></div>
+            <div class="timeline-content">
+              <p class="timeline-place">Grupo Galindo <span>Lorca, España</span></p>
+              <h3>Electromecánico de vehículos industriales</h3>
+              <ul>
+                <li>Diagnóstico y reparación de vehículos industriales.</li>
+                <li>Trabajo con sistemas hidráulicos y neumáticos.</li>
+                <li>Mantenimiento, resolución de averías y apoyo como responsable del taller durante ausencias.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2020 — 2021</div>
+            <div class="timeline-mark"></div>
+            <div class="timeline-content">
+              <p class="timeline-place">Taller ElectroLimber <span>Cochabamba, Bolivia</span></p>
+              <h3>Electromecánico de vehículos industriales</h3>
+              <ul>
+                <li>Diagnóstico y reparación de vehículos.</li>
+                <li>Mantenimiento mecánico y eléctrico.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="sobre-mi">
+        <div class="about-panel">
+          <div class="about-symbol" aria-hidden="true">&lt;JP/&gt;</div>
+          <div>
+            <p class="eyebrow">Un poco sobre mí</p>
+            <h2>Aprender haciendo</h2>
+            <p class="about-copy">
+              Actualmente estudio el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web
+              en el IES Ramón Arcas Meca, en Lorca. Mi experiencia en taller me enseñó a trabajar con
+              atención, método y constancia; ahora aplico esa forma de trabajar mientras aprendo programación.
+            </p>
+            <div class="about-details">
+              <span><b>Formación</b> CFGS Desarrollo de Aplicaciones Web</span>
+              <span><b>Centro</b> IES Ramón Arcas Meca · Lorca</span>
+              <span><b>Idiomas</b> Español nativo · Inglés intermedio</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="contacto">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">¿Hablamos?</p>
+            <h2>¿Tienes algo en mente?<br /><span>Cuéntame.</span></h2>
+            <p>Si quieres saber más sobre mis proyectos o ponerte en contacto conmigo, escríbeme.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:jose04revi@gmail.com">Enviar un email <span class="button-icon" aria-hidden="true">↗</span></a>
+            <a class="contact-detail" href="tel:+34643446761">+34 643 44 67 61</a>
+            <span class="contact-detail">Lorca, Murcia, España</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <a class="brand" href="#inicio">JP<span>.</span></a>
+      <p>Hecho con ganas de aprender · 2026</p>
+      <a href="#inicio" class="back-to-top">Volver arriba ↑</a>
+    </footer>
+  </body>
+</html>
+
